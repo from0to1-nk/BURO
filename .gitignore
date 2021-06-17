@@ -1,0 +1,7 @@
+node_modules/
+phpmailer/
+contact.php
+.DS_Store
+.AppleDouble
+.LSOverride
+.vs

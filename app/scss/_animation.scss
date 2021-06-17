@@ -1,0 +1,96 @@
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes spinZ {
+    0% {
+        transform: rotateZ(360deg);
+    }
+
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+@keyframes rotateY {
+    0% {
+        transform: rotateY(360deg);
+    }
+
+
+}
+
+@keyframes rotateX {
+    0% {
+        transform: rotateX(360deg);
+    }
+}
+
+@keyframes left {
+    100% {
+        transform: translateX(-190px);
+    }
+}
+
+@keyframes leftMedia {
+    100% {
+        transform: translateX(-100px);
+    }
+}
+
+@keyframes letter {
+    100% {
+
+        opacity: 1;
+    }
+}
+
+
+@keyframes Top {
+    from {
+        opacity: 1;
+        transform: translate3d(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translate3d(0, -1000px, 0);
+    }
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 2000px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0.7);
+    }
+}
+
+@keyframes toRight {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

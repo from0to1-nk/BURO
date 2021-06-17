@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <select class="header__city">
+                        <option>Москва</option>
+                        <option>Московская область</option>
+
+                    </select>
+                    <div class="header__template">Ежедневно с 10:00 до 20:00</div>
+                    <div class="header__contact">
+                        <p class="email">Info@officetut.com</p><a href="#" class="contact__social"><img
+                                src="images/whatsapp.svg" alt=""></a><a href="#" class="contact__social"><img
+                                src="images/inst.svg" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="scroll__top-menu">
+                <div class="container">
+                    <div class="scroll__top-menu__inner">
+                        <nav class="scroll-top__nav">
+                            <ul class="nav__top-list">
+                                <li class="nav__top-item"><a href="http://24markup.ru/buro/about.html"
+                                        class="nav__top-link underline__link ">О студии</a></li>
+                                <li class="nav__top-item services__menu-item"><span
+                                        class="nav__top-link services__drop-link underline__link ">Услуги</span>
+                                    <ul class="services__drop-menu">
+                                        <li class="drop-menu__item"><a href="http://24markup.ru/buro/project.html"
+                                                class="underline__link nav__top-link">Полный
+                                                проект </a></li>
+                                        <li class="drop-menu__item"><a href="http://24markup.ru/buro/interier.html"
+                                                class="underline__link nav__top-link">
+                                                Планировочное решение
+                                            </a></li>
+                                        <li class="drop-menu__item"><a href="#" class="underline__link nav__top-link">
+                                                Авторский
+                                                надзор</a>
+                                        </li>
+                                        <li class="drop-menu__item"><a href="#" class="underline__link nav__top-link">
+                                                Комплектация</a></li>
+                                        <li class="drop-menu__item"><a href="#"
+                                                class="underline__link nav__top-link">Разовый
+                                                выезд </a></li>
+                                        <li class="drop-menu__item"><a href="#"
+                                                class="underline__link nav__top-link">Замер</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav__top-item"><a href="#" class="nav__top-link underline__link ">Цены</a>
+                                </li>
+                                <li class="nav__top-item"><a href="http://24markup.ru/buro/portfolio.html"
+                                        class="nav__top-link underline__link ">Портфолио</a></li>
+                                <li class="nav__top-item"><a href="#" class="nav__top-link underline__link ">Отзывы</a>
+                                </li>
+                                <li class="nav__top-item"><a href="http://24markup.ru/buro/contact.html"
+                                        class="nav__top-link underline__link ">Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <div class="scroll-menu__btn">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="scroll__top__contact">
+                            <a class="main-phone__tel scroll__top-tel" href="phone:+78612020442">+7 (861) 202-04-42</a>
+                            <button class="main-phone__btn scroll__top-btn bell__btn">Обратный звонок</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll__breadcrumbs">
+                <div class="container">
+                    <div class="scroll__breadcrumbs-inner">
+                        <a class="scroll__breadcrumbs-link" href="#">Вернуться</a>
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item"><a class="breadcrumbs__link"
+                                    href="http://24markup.ru/buro/index.html">Главная</a></li>
+                            <li class="breadcrumbs__item"><span class="current-page">Портфолио</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay-bell popup__overlay">
+                <div class="popup" id="bell">
+                    <div class="popup-top">
+                        <h1 class="popup__title">Заказать звонок</h1>
+                        <button class="price__popup-close"><img src="images/popup-close.svg" alt=""></button>
+                    </div>
+                    <form class="popup__form">
+                        <input type="text" class="popup__input popup-el" name="name" placeholder="Имя" required>
+                        <input type="tel" class="popup__input tel__input popup-el" name="tel"
+                            placeholder="+7(___)___-__-__" required><textarea class="popup__area popup-el"
+                            placeholder="Комментарий"></textarea>
+                        <button class="popup__btn">Отправить</button>
+                        <div class="popup__agree">Нажимая кнопку “Отправить”, вы подтверждаете согласие на
+                            обработку
+                            персональных данных, а также соглашаетесь с офертой и политикой
+                            конфиденциальности
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="grid">
+
+                <div class="center portfolio">
+                    <div class="project__inner portfolio__inner">
+                        <h1 class="page__title">Портфолио</h1>
+
+                        <div class="swiper-container main__slider">
+                            <div class="swiper-wrapper" id="swiper-gallery">
+                                <a class="swiper-slide main__slider-slide" href="images/portfolio-slider.jpg"><img
+                                        class="simple-gallery__img swiper-lazy" src="images/portfolio-slider.jpg"
+                                        alt="">
+                                </a>
+                                <a class="swiper-slide main__slider-slide" href="images/portfolio-slider.jpg"><img
+                                        class="simple-gallery__img swiper-lazy" src="images/portfolio-slider.jpg"
+                                        alt=""></a>
+                                <a class="swiper-slide main__slider-slide" href="images/portfolio-slider.jpg"><img
+                                        class="simple-gallery__img swiper-lazy" src="images/portfolio-slider.jpg"
+                                        alt=""></a>
+                                <a class="swiper-slide main__slider-slide" href="images/portfolio-slider.jpg"><img
+                                        class="simple-gallery__img swiper-lazy" src="images/portfolio-slider.jpg"
+                                        alt="">
+                                </a>
+                                <a class="swiper-slide main__slider-slide" href="images/portfolio-slider.jpg"><img
+                                        class="simple-gallery__img swiper-lazy" src="images/portfolio-slider.jpg"
+                                        alt=""></a>
+                                <a class="swiper-slide main__slider-slide" href="images/portfolio-slider.jpg"><img
+                                        class="simple-gallery__img swiper-lazy" src="images/portfolio-slider.jpg"
+                                        alt=""></a>
+
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="pagination">
+                                <div class="swiper-button-prev project-button-prev project-button"><img
+                                        src="images/arrow-small.svg" alt="">
+                                </div>
+
+                                <div class="swiper-pagination project-pagination"></div>
+
+                                <div class="swiper-button-next project-button-next project-button"><img
+                                        src="images/arrow-small.svg" alt="">
+                                </div>
+                                <button id="loupe" class="swiper__button-loupe" type="button"><img
+                                        src="images/loupe.svg" alt=""></button>
+
+                            </div>
+
+
+                            <div class="image-slider__fraction">
+                                <div class="project-slider__current-wrapper">
+                                    <div class="project-slider__current"> 01</div>
+                                </div>
+                                <div class="project-slider__total">02</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-sort">
+                    <div class="container">
+                        <div class="portfolio-sort__inner">
+                            <div class="portfolio-sort__box">
+                                <h2 class="portfolio-sort__title">Выполненные проекты</h2>
+                                <button class="portfolio-sort__btn" type="button"><img src="images/filter.svg"
+                                        alt=""></button>
+                            </div>
+                            <div class="sort__menu">
+                                <h3 class="sort__menu-title">Подобрать по параметрам</h3>
+                                <div class="sort__menu-box">
+
+                                    <div class="sort__menu-item">
+                                        <div class="menu-item__title">По основным направлениям</div>
+                                        <div class="sort__menu-buttons filter-button-group">
+                                            <button class="filter" data-filter=".category-design">Дизайн</button>
+                                            <button class="filter" data-filter=".architecture">Архитектура</button>
+                                            <button class="filter" data-filter=".improvement">Благоустройство</button>
+                                        </div>
+                                        <div class="menu-item__title">По виду </div>
+                                        <div class="selectlink">
+                                            <div class="selectlink-control">Ничего не выбрано</div>
+                                            <ul class="selectlink__list">
+                                                <li class="selectlink__list-item">
+                                                    <input class="main__checkbox" type="checkbox"
+                                                        value=".bedroom">Спальня
+                                                </li>
+                                                <li class="selectlink__list-item">
+                                                    <input class="main__checkbox" type="checkbox"
+                                                        value=".living-room">Гостиная
+                                                </li>
+                                                <li class="selectlink__list-item">
+                                                    <input class="main__checkbox" type="checkbox" value=".kitchen">Кухня
+                                                </li>
+                                                <li class="selectlink__list-item">
+                                                    <input class="main__checkbox" type="checkbox"
+                                                        value=".buth-room">Ванная
+                                                    комната
+                                                </li>
+                                                <li class="selectlink__list-btn" value=".all">Выбрать все</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="sort__menu-item">
+                                        <div class="menu-item__title">По основным направлениям</div>
+                                        <div class="sort__menu-buttons filter-button-group">
+                                            <button class="filter" data-filter=".resident">Жилые</button>
+                                            <button class="filter" data-filter=".public">Общественные</button>
+                                            <button class="filter" data-filter=".commercial">Коммерческие</button>
+                                        </div>
+                                        <div class="menu-item__title">По стилю</div>
+
+                                        <div class="selectlink">
+                                            <div class="selectlink-control">Ничего не выбрано</div>
+                                            <ul class="selectlink__list">
+                                                <li class="selectlink__list-item">
+                                                    <input class="main__checkbox" type="checkbox"
+                                                        value=".new">Современный
+                                                </li>
+                                                <li class="selectlink__list-item">
+                                                    <input class="main__checkbox" type="checkbox"
+                                                        value=".minimal">Минимализм
+                                                </li>
+                                                <li class="selectlink__list-item">
+                                                    <input class="main__checkbox" type="checkbox"
+                                                        value=".h-tech">Хай-тек
+                                                </li>
+                                                <li class="selectlink__list-item">
+                                                    <input class="main__checkbox" type="checkbox"
+                                                        value=".classic">Классический
+                                                </li>
+                                                <li class="selectlink__list-item">
+                                                    <input class="main__checkbox" type="checkbox"
+                                                        value=".skandinav">Скандинавский
+                                                </li>
+                                                <li class="selectlink__list-item">
+                                                    <input class="main__checkbox" type="checkbox"
+                                                        value=".futurizm">Футуризм
+                                                </li>
+                                                <li class="selectlink__list-item">
+                                                    <input class="main__checkbox" type="checkbox" value=".modern">Модерн
+                                                </li>
+                                                <li class="selectlink__list-item">
+                                                    <input class="main__checkbox" type="checkbox"
+                                                        value=".new-classic">Современная
+                                                    классика
+                                                </li>
+                                                <li class="selectlink__list-btn" value=".all">Выбрать все</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="protfolio__preview-wrapper">
+                    <div class="container">
+                        <div class="project__preview" id="project__preview">
+                            <div
+                                class="project-item project-item__size _anim-items _anim-no-hide category-design modern h-tech new public all architecture commercial">
+                                <div class="project-item__inner">
+                                    <a class="preview__img-wrapper" href="images/prev-item-5.jpg"
+                                        data-fancybox="portfolio"><img class="preview-item__img"
+                                            src="images/prev-item-5.jpg" alt="#"></a>
+                                    <div class="preview-item__bottom">
+                                        <div class="preview-item__content">
+                                            <p class="preview-item__text">AP BURO</p>
+                                            <h5 class="preview-item__title project-item__title">Агрохолдинг</h5>
+                                        </div><a href="#" class="preview-item__link"><img src="images/arrow-black.svg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="project-item project-item__size _anim-items _anim-no-hide modern skandinav h-tech resident all living-room architecture">
+                                <div class="project-item__inner">
+                                    <a class="preview__img-wrapper" href="images/prev-item-2.jpg"
+                                        data-fancybox="portfolio" data-caption='Изображение'><img
+                                            class="preview-item__img" src="images/prev-item-2.jpg" alt="#"></a>
+                                    <div class="preview-item__bottom">
+                                        <div class="preview-item__content">
+                                            <p class="preview-item__text">AP BURO</p>
+                                            <h5 class="preview-item__title project-item__title">Кубаньспецмаш</h5>
+                                        </div><a href="#" class="preview-item__link"><img src="images/arrow-black.svg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="project-item project-item__size _anim-items _anim-no-hide category-design skandinav public all">
+
+                                <div class="project-item__inner">
+                                    <a class="preview__img-wrapper" href="images/prev-item-3.jpg"
+                                        data-fancybox="portfolio"><img class="preview-item__img"
+                                            src="images/prev-item-3.jpg" alt="#"></a>
+                                    <div class="preview-item__bottom">
+                                        <div class="preview-item__content">
+                                            <p class="preview-item__text">AP BURO</p>
+                                            <h5 class="preview-item__title project-item__title">Агрохолдинг</h5>
+                                        </div><a href="#" class="preview-item__link"><img src="images/arrow-black.svg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div
+                                class="project-item project-item__size _anim-items _anim-no-hide new-classic new resident all living-room architecture">
+                                <div class="project-item__inner">
+                                    <a class="preview__img-wrapper" href="images/prev-item-4.jpg"
+                                        data-fancybox="portfolio"><img class="preview-item__img"
+                                            src="images/prev-item-4.jpg" alt="#"></a>
+                                    <div class="preview-item__bottom">
+                                        <div class="preview-item__content">
+                                            <p class="preview-item__text">AP BURO</p>
+                                            <h5 class="preview-item__title project-item__title">Агрохолдинг</h5>
+                                        </div><a href="#" class="preview-item__link"><img src="images/arrow-black.svg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="project-item project-item__size _anim-items _anim-no-hide commercial modern skandinav public all improvement">
+                                <div class="project-item__inner">
+                                    <a class="preview__img-wrapper" href="images/prev-item-1.jpg"
+                                        data-fancybox="portfolio" data-caption='Изображение'><img
+                                            class="preview-item__img" src="images/prev-item-1.jpg" alt="#"></a>
+                                    <div class="preview-item__bottom">
+                                        <div class="preview-item__content">
+                                            <p class="preview-item__text">AP BURO</p>
+                                            <h5 class="preview-item__title project-item__title">Кубаньспецмаш</h5>
+                                        </div><a href="#" class="preview-item__link"><img src="images/arrow-black.svg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="project-item project-item__size _anim-items _anim-no-hide new-classic all living-room improvement">
+
+                                <div class="project-item__inner">
+                                    <a class="preview__img-wrapper" href="images/prev-item-6.jpg"
+                                        data-fancybox="portfolio"><img class="preview-item__img"
+                                            src="images/prev-item-6.jpg" alt="#"></a>
+                                    <div class="preview-item__bottom">
+                                        <div class="preview-item__content">
+                                            <p class="preview-item__text">AP BURO</p>
+                                            <h5 class="preview-item__title project-item__title">Агрохолдинг</h5>
+                                        </div><a href="#" class="preview-item__link"><img src="images/arrow-black.svg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div
+                                class="project-item project-item__size _anim-items _anim-no-hide classic minimal resident all improvement">
+                                <div class="project-item__inner">
+                                    <a class="preview__img-wrapper" href="images/prev-item-7.jpg"
+                                        data-fancybox="portfolio"><img class="preview-item__img"
+                                            src="images/prev-item-7.jpg" alt="#"></a>
+                                    <div class="preview-item__bottom">
+                                        <div class="preview-item__content">
+                                            <p class="preview-item__text">AP BURO</p>
+                                            <h5 class="preview-item__title project-item__title">Агрохолдинг</h5>
+                                        </div><a href="#" class="preview-item__link"><img src="images/arrow-black.svg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="project-item project-item__size _anim-items _anim-no-hide futurizm h-tech all living-room improvement">
+                                <div class="project-item__inner">
+                                    <a class="preview__img-wrapper" href="images/prev-item-2.jpg"
+                                        data-fancybox="portfolio" data-caption='Изображение'><img
+                                            class="preview-item__img" src="images/prev-item-2.jpg" alt="#"></a>
+                                    <div class="preview-item__bottom">
+                                        <div class="preview-item__content">
+                                            <p class="preview-item__text">AP BURO</p>
+                                            <h5 class="preview-item__title project-item__title">Кубаньспецмаш</h5>
+                                        </div><a href="#" class="preview-item__link"><img src="images/arrow-black.svg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="project-item project-item__size _anim-items _anim-no-hide category-design resident all improvement">
+
+                                <div class="project-item__inner">
+                                    <a class="preview__img-wrapper" href="images/prev-item-5.jpg"
+                                        data-fancybox="portfolio"><img class="preview-item__img"
+                                            src="images/prev-item-5.jpg" alt="#"></a>
+                                    <div class="preview-item__bottom">
+                                        <div class="preview-item__content">
+                                            <p class="preview-item__text">AP BURO</p>
+                                            <h5 class="preview-item__title project-item__title">Агрохолдинг</h5>
+                                        </div><a href="#" class="preview-item__link"><img src="images/arrow-black.svg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div
+                                class="project-item project-item__size _anim-items _anim-no-hide futurizm new commercial all bedroom improvement">
+                                <div class="project-item__inner">
+                                    <a class="preview__img-wrapper" href="images/prev-item-4.jpg"
+                                        data-fancybox="portfolio"><img class="preview-item__img"
+                                            src="images/prev-item-4.jpg" alt="#"></a>
+                                    <div class="preview-item__bottom">
+                                        <div class="preview-item__content">
+                                            <p class="preview-item__text">AP BURO</p>
+                                            <h5 class="preview-item__title project-item__title">Агрохолдинг</h5>
+                                        </div><a href="#" class="preview-item__link"><img src="images/arrow-black.svg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="project-item project-item__size _anim-items _anim-no-hide category-design classic minimal all bedroom">
+                                <div class="project-item__inner">
+                                    <a class="preview__img-wrapper" href="images/prev-item-2.jpg"
+                                        data-fancybox="portfolio" data-caption='Изображение'><img
+                                            class="preview-item__img" src="images/prev-item-2.jpg" alt="#"></a>
+                                    <div class="preview-item__bottom">
+                                        <div class="preview-item__content">
+                                            <p class="preview-item__text">AP BURO</p>
+                                            <h5 class="preview-item__title project-item__title">Кубаньспецмаш</h5>
+                                        </div><a href="#" class="preview-item__link"><img src="images/arrow-black.svg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="project-item project-item__size _anim-items _anim-no-hide classic minimal commercial all bedroom">
+
+                                <div class="project-item__inner">
+                                    <a class="preview__img-wrapper" href="images/prev-item-6.jpg"
+                                        data-fancybox="portfolio"><img class="preview-item__img"
+                                            src="images/prev-item-6.jpg" alt="#"></a>
+                                    <div class="preview-item__bottom">
+                                        <div class="preview-item__content">
+                                            <p class="preview-item__text">AP BURO</p>
+                                            <h5 class="preview-item__title project-item__title">Агрохолдинг</h5>
+                                        </div><a href="#" class="preview-item__link"><img src="images/arrow-black.svg"
+                                                alt=""></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__preview-buttons">
+                        <button type="button" class="project-item__hidden">Показать ещё</button>
+                        <ul class="project__pagination-list">
+                            <li class="project__pagination-item"><span class="current__progect-page">1</span></li>
+                            <li class="project__pagination-item"><a class="project__pugination-link" href="#">2</a></li>
+                            <li class="project__pagination-item"><a class="project__pugination-link" href="#">3</a></li>
+                            <li class="project__pagination-item"><a class="project__pugination-link" href="#">4</a></li>
+                            <li class="project__pagination-item"><a class="project__pugination-link" href="#">5</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="left"></div>
+                <div class="center project-form__section">
+                    <div class="project-form__inner">
+                        <form class="project-form" id="project-form" method="POST">
+                            <div class="project-form__title">Выберите свой дизайн <span>с AP-BURO</span></div>
+                            <div class="project-form__text">Если у вас остались вопросы, заполните форму обратной связи
+                                и
+                                менеджер свяжется с вами в ближайшее время.</div>
+                            <div class="project-form__row"><input class="project-form__input" type="text" name="name"
+                                    placeholder="Имя" required>
+                                <label class="text__input-label project-form__label"></label>
+                            </div>
+                            <div class="project-form__row">
+                                <input class="project-form__input tel__input" type="text" name="tel"
+                                    placeholder="Телефон" required>
+                                <label class="tel__input-label  project-form__label"></label>
+                            </div>
+                            <textarea class="project-form__area" placeholder='Комментарий'></textarea>
+                            <div class="project-form__bottom">
+                                <div class="project-form__agree">Нажимая кнопку “Отправить”, вы подтверждаете согласие
+                                    на
+                                    обработку
+                                    персональных данных, а также соглашаетесь с офертой и политикой конфиденциальности
+                                </div>
+                                <button class="project-form__btn">Отправить</button>
+                            </div>
+                        </form>
+                        <img class="project-form__img" src="images/project-form.jpg" alt="">
+                    </div>
+                </div>
+                <div class="right"></div>
+
+                <div class="left"></div>
+                <div class="center project__content">
+                    <div class="project__content-item">
+                        <h4 class="project__content-title">Lorem ipsum</h4>
+                        <p class="project__content-text">Lorem ipsum dolor sit amet, conctetur adipiscing elit, sed do
+                            eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            ullamco
+                            labouris nisi ut aliquip ex ea Commodo Conquat. Duis a volute dolore dolor conquat. Lorem
+                            ipsum
+                            dolor sit amet, conctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore
+                            magna aliqua. Lorem ipsum dolor sit amet, conctetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco
+                            labouris
+                            nisi ut aliquip ex ea Commodo Conquat. Duis a volute dolore dolor conquat. Lorem ipsum dolor
+                            sit
+                            amet, conctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua.
+                        </p>
+                    </div>
+                    <div class="project__content-item">
+                        <h4 class="project__content-title">Lorem ipsum</h4>
+                        <p class="project__content-text">Lorem ipsum dolor sit amet, conctetur adipiscing elit, sed do
+                            eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            ullamco
+                            lab, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco
+                            labouris
+                            nisi ut aliquip ex ea Commodo Conquat. Duis a volute dolore dolor conquat. Lorem ipsum dolor
+                            sit
+                            amet, conctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua.
+                        </p>
+                    </div>
+                </div>
+                <div class="right"></div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__inner">
+                <div class="container">
+                    <div class="footer__top">
+                        <div class="footer__col"><a class="footer__logo" href="http://24markup.ru/buro/index.html"><img
+                                    src="images/f-logo.svg" alt=""></a>
+                        </div>
+                        <div class="footer__col footer__menu">
+                            <h6 class="footer__col-title">Студия</h6>
+                            <ul class="footer__col-list">
+                                <li class="footer__col-item"><a href="http://24markup.ru/buro/about.html"
+                                        class="footer__col-link">О студии</a></li>
+                                <li class="footer__col-item">
+                                    <a href="#" class="footer__col-link">Услуги</a></li>
+                                <li class="footer__col-item">
+                                    <a href="#" class="footer__col-link">Цены</a></li>
+                                <li class="footer__col-item">
+                                    <a href="http://24markup.ru/buro/portfolio.html"
+                                        class="footer__col-link">Портфолио</a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a href="#" class="footer__col-link">Отзывы</a></li>
+                                <li class="footer__col-item">
+                                    <a href="http://24markup.ru/buro/contact.html" class="footer__col-link">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__col footer__services">
+                            <h6 class="footer__col-title">Услуги</h6>
+                            <ul class="footer__col-list">
+                                <li class="footer__col-item"><a href="#" class="footer__col-link">Полный проект</a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a href="#" class="footer__col-link">Благоустройство</a></li>
+                                <li class="footer__col-item">
+                                    <a href="#" class="footer__col-link"> Архитектурное проектирование</a></li>
+                                <li class="footer__col-item">
+                                    <a href="#" class="footer__col-link">Генеральный подряд или ремонтные работы</a>
+                                </li>
+                                <li class="footer__col-item">
+                                    <a href="#" class="footer__col-link">Декорирование</a></li>
+                                <li class="footer__col-item">
+                                    <a href="#" class="footer__col-link"> Авторский надзор</a></li>
+                                <li class="footer__col-item">
+                                    <a href="#" class="footer__col-link">Комплектация</a></li>
+                                <li class="footer__col-item">
+                                    <a href="#" class="footer__col-link">Разовый выезд</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col-wrapper">
+                            <div class="footer__col footer__contacts">
+                                <div class="footer__contacts-top"><a href="phone:+78612020442" class="footer-tel">+7
+                                        (861)
+                                        202-04-42</a> </div>
+                                <h6 class="footer__col-title">Контакты</h6>
+                                <div class="footer__addres"><span>Адрес:</span>
+                                    <p class="footer__addres-text">
+                                        г. Краснодар, ул. Коммунаров, 268</p>
+                                </div>
+                                <div class="footer__addres"><span>E-mail:</span>
+                                    <p class="footer__addres-text">
+                                        info@officetut.com</p>
+                                </div>
+                                <div class="social__box"><a href="#" class="contact__social"><img
+                                            src="images/whatsapp.svg" alt=""></a><a href="#"
+                                        class="contact__social"><img src="images/inst.svg" alt=""></a></div>
+                            </div>
+                            <div class="footer__col"><button
+                                    class="main-phone__btn footer__btn bell__btn white-btn">Обратный
+                                    звонок</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__copyright">© 2021 «AP BURO» Все права защищены.</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.min.js"></script>
+
+
+</body>
+
+</html>

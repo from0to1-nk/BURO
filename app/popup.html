@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body>
+        <div class="container" style="height: 50vh;">
+                <button class="request__btn" style="margin-top: 100px; background-color: chartreuse;">Открыть
+                        попап</button>
+                <div class="overlay-reviews popup__overlay">
+                        <div class="popup" id="reviews-popup">
+                                <div class="popup-top">
+                                        <h1 class="popup__title">Оставить отзыв</h1>
+                                        <button class="price__popup-close"><img src="images/popup-close.svg"
+                                                        alt=""></button>
+                                </div>
+                                <form class="popup__form">
+                                        <input type="text" class="popup__input popup-el" name="name" placeholder="Имя"
+                                                required>
+                                        <input type="email" class="popup__input  popup-el" name="mail"
+                                                placeholder="E-mail" required>
+                                        <input type="file" class="popup__input  popup-el file-input" name="my_file"
+                                                data-browse='Выберите файл' placeholder="Файл не выбран">
+                                        <textarea class="popup__area popup-el" placeholder="Ваш отзыв"></textarea>
+                                        <button class="popup__btn">Отправить</button>
+                                        <div class="popup__agree">Нажимая кнопку “Отправить”, вы подтверждаете согласие
+                                                на
+                                                обработку
+                                                персональных данных, а также соглашаетесь с офертой и политикой
+                                                конфиденциальности
+                                        </div>
+                                </form>
+                        </div>
+                </div>
+        </div>
+
+
+
+
+        <footer class="footer">
+                <div class="footer__inner">
+                        <div class="container">
+                                <div class="footer__top">
+                                        <div class="footer__col"><a class="footer__logo"
+                                                        href="http://24markup.ru/buro/index.html"><img
+                                                                src="images/f-logo.svg" alt=""></a>
+                                        </div>
+                                        <div class="footer__col footer__menu">
+                                                <h6 class="footer__col-title">Студия</h6>
+                                                <ul class="footer__col-list">
+                                                        <li class="footer__col-item"><a
+                                                                        href="http://24markup.ru/buro/about.html"
+                                                                        class="footer__col-link">О студии</a></li>
+                                                        <li class="footer__col-item">
+                                                                <a href="#" class="footer__col-link">Услуги</a></li>
+                                                        <li class="footer__col-item">
+                                                                <a href="#" class="footer__col-link">Цены</a></li>
+                                                        <li class="footer__col-item">
+                                                                <a href="#" class="footer__col-link">Портфолио</a></li>
+                                                        <li class="footer__col-item">
+                                                                <a href="#" class="footer__col-link">Отзывы</a></li>
+                                                        <li class="footer__col-item">
+                                                                <a href="http://24markup.ru/buro/contact.html"
+                                                                        class="footer__col-link">Контакты</a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="footer__col footer__services">
+                                                <h6 class="footer__col-title">Услуги</h6>
+                                                <ul class="footer__col-list">
+                                                        <li class="footer__col-item"><a href="#"
+                                                                        class="footer__col-link">Полный проект</a>
+                                                        </li>
+                                                        <li class="footer__col-item">
+                                                                <a href="#" class="footer__col-link">Благоустройство</a>
+                                                        </li>
+                                                        <li class="footer__col-item">
+                                                                <a href="#" class="footer__col-link"> Архитектурное
+                                                                        проектирование</a></li>
+                                                        <li class="footer__col-item">
+                                                                <a href="#" class="footer__col-link">Генеральный подряд
+                                                                        или ремонтные работы</a>
+                                                        </li>
+                                                        <li class="footer__col-item">
+                                                                <a href="#" class="footer__col-link">Декорирование</a>
+                                                        </li>
+                                                        <li class="footer__col-item">
+                                                                <a href="#" class="footer__col-link"> Авторский
+                                                                        надзор</a></li>
+                                                        <li class="footer__col-item">
+                                                                <a href="#" class="footer__col-link">Комплектация</a>
+                                                        </li>
+                                                        <li class="footer__col-item">
+                                                                <a href="#" class="footer__col-link">Разовый выезд</a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <div class="footer__col-wrapper">
+                                                <div class="footer__col footer__contacts">
+                                                        <div class="footer__contacts-top"><a href="phone:+78612020442"
+                                                                        class="footer-tel">+7
+                                                                        (861)
+                                                                        202-04-42</a> </div>
+                                                        <h6 class="footer__col-title">Контакты</h6>
+                                                        <div class="footer__addres"><span>Адрес:</span>
+                                                                <p class="footer__addres-text">
+                                                                        г. Краснодар, ул. Коммунаров, 268</p>
+                                                        </div>
+                                                        <div class="footer__addres"><span>E-mail:</span>
+                                                                <p class="footer__addres-text">
+                                                                        info@officetut.com</p>
+                                                        </div>
+                                                        <div class="social__box"><a href="#"
+                                                                        class="contact__social"><img
+                                                                                src="images/whatsapp.svg" alt=""></a><a
+                                                                        href="#" class="contact__social"><img
+                                                                                src="images/inst.svg" alt=""></a></div>
+                                                </div>
+                                                <div class="footer__col"><button
+                                                                class="main-phone__btn footer__btn bell__btn white-btn">Обратный
+                                                                звонок</button>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="footer__bottom">
+                                        <div class="footer__copyright">© 2021 «AP BURO» Все права защищены.</div>
+                                </div>
+                        </div>
+                </div>
+        </footer>
+
+        <script src="js/main.min.js"></script>
+
+</body>
+
+</html>

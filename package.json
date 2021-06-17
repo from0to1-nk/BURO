@@ -1,0 +1,31 @@
+{
+  "name": "last-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "imagesloaded": "^4.1.4",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.6.0",
+    "jquery-form-styler": "^2.0.2",
+    "jquery-validation": "^1.19.3",
+    "jquery.maskedinput": "^1.4.1",
+    "masonry-layout": "^4.2.2",
+    "rateyo": "^3.0.0-alpha.2",
+    "swiper": "^6.5.0"
+  }
+}
